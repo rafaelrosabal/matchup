@@ -1,0 +1,4 @@
+MatchUp is a client-side image comparison library.
+MatchUp has no dependencies because it works on the client side with the HTML5 Canvas2D API of the browser. 
+The main function of MatchUp is to compare two images. After comparison, MatchUp generates a numerical value between 0 and 1 that indicates the error rate. With an additional MatchUp feature, it is also possible to highlight the incorrect pixels in the image that help you instantly see where errors occur.
+By comparing each pixel with its adjacent pixels with an adjustable tolerance, MatchUp assesses whether there is a discrepancy or not.

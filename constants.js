@@ -1,0 +1,4 @@
+export default {
+  THRESHOLD_PERCENT: 0,
+  THRESHOLD_PIXELS: 1
+}
