@@ -1,0 +1,7 @@
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans);
+.body {  }
+.loader { font-weight: bold; width: 500px; margin: 0 auto; height: 20px; font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+.title { color: #096379; font-size: 100%; margin-bottom: 5px }
+.load { width: 100%; height: 5px; background-color: #F0F0F0; position: relative; overflow: hidden; }
+.bar { width: 15%; height: 5px; background-color: #096379; background-image: linear-gradient(120deg, #096379, #00d4ff); position: absolute;
+} 

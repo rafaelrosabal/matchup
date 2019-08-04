@@ -1,0 +1,118 @@
+<!doctype html>
+<html>
+  <head>
+    <title>MatchUp - Image comparison</title>
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+    <link rel="stylesheet" href="stylesheets/loading.css">
+    
+  
+  </head>
+  <body>
+   
+    <section class="page-header">
+      <h1 class="project-name">MatchUp</h1>
+     
+      
+    </section>
+  
+    <section class="main-content">
+    
+    
+    <h4>
+    
+    <p align="center">
+      <a  class="anchor" href="#upload" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Select the CSV file of images to process
+      
+      </p>
+      </h4>
+     
+     <br>
+    
+    <div class="drop-zone-container">
+     <input type="file" id="files" name="files[]" multiple />
+        <output id="filelist"></output>
+        
+          <hr> 
+        <div id="lp" class="loading loading-csv">
+        <div class="loader">
+        <div class="title">Processing...</div>
+        <div class="load">
+        <div class="bar"></div>
+        </div>
+        </div>
+     
+        </div>
+        
+         <br>
+     
+       <div class="results-csv ">
+        
+         <button  class="btn label-btn export-csv">Download CSV</button>
+       
+        </div>
+        
+      
+    </div>
+    
+    
+    
+      
+      <br>
+     
+    <h3>
+    <p align="center">
+      <a  class="anchor" href="#compareTwo" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>You can also compare two images
+      </p>
+      </h3>
+     
+      <div class="drop-zone-container">
+        <div id="dropzone1" class="drop-zone">
+            Drop First Image
+        </div>
+        <div id="dropzone2" class="drop-zone">
+          <div>
+            Drop Second Image
+          </div>
+        </div>
+
+        <div class="results">
+          <h3> Results </h3>
+          <table class="results-table">
+            <thead>
+              <tr><th> Passed </th>
+              <th>  Difference </th>
+              <th> Pixel Difference </th>
+              
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td class="passed-result">  </td>
+                <td class="percentage-result"> </td>
+                <td class="pixel-result"> </td>
+               
+              </tr>
+            </tbody>
+          </table>
+          <div class="comparison-image">
+          </div>
+      
+
+      </div>
+        </section>
+        
+       
+       
+       
+        
+  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+   
+    
+    <script src="main.js"></script>
+    <script src="browser.min.js"></script>
+    
+  </body>
+</html>
